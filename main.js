@@ -103,3 +103,23 @@ let bool1 = Boolean(1);
 let bool2 = !!1;
 let bool3 = Boolean(0);
 let bool4 = Boolean("");
+
+console.log(5 == "5");
+console.log(5 === "5");
+console.log(0 == false);
+console.log(0 === false);
+console.log(null == undefined);
+console.log(null === undefined);
+
+let obj1 = { name: "john" };
+let obj2 = { name: "john" };
+
+console.log(obj1 == obj2);
+console.log(obj1 === obj2);
+
+let obj3 = obj1;
+console.log(obj1 === obj3);
+
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
+console.log(arr1 === arr2);
