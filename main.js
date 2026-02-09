@@ -87,3 +87,19 @@ let newPrice = 50;
 console.log(`значение: ${newPrice} и тип: ${typeof newPrice}`);
 newPrice = "50Р";
 console.log(`значение: ${newPrice} и тип: ${typeof newPrice}`);
+
+let num = 42;
+let str = String(num);
+let str2 = num.toString();
+let str3 = "" + num;
+
+let strNum = "123";
+let int = Number(strNum);
+let int2 = parseInt("42.5");
+let float = parseFloat("3.14");
+let int3 = +"99";
+
+let bool1 = Boolean(1);
+let bool2 = !!1;
+let bool3 = Boolean(0);
+let bool4 = Boolean("");
